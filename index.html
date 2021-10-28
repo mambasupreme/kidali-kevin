@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your new website</title>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+</head>
+<body >
+    <div style="display: flex;height: 100vh;">
+        <div style="width: 0px;height: 100%;display: none;" id="sidenav">
+            <div style="width: 100%;position: relative;">
+                <a href="#" onclick="closeNav()">
+                    <span style="position: absolute;right: 0;margin-right: 10px;size: 20;">&times;</span>
+                </a>
+                <br>
+                <div style="display: flex;padding-left: 50px;">
+                    <center>
+                        <span class="label label-default" style="border-radius: 100%;"><i class="fas fa-bolt"></i></span></h1>
+                        <font><strong>YOUR</strong>LOGO</font>
+                    </center>
+                </div>
+               <div style="margin-top: 30px;">
+                   <div><button class="btn1" style="width: 100%;padding: 5px; text-align: start;background-color: white;border: none;">Introduction</button></div>
+                   <div><button class="btn12" style="width: 100%; padding: 5px; text-align: start;">Your <strong>new website</strong></button></div>
+                   <div><button class="btn1" style="width: 100%;padding: 5px; text-align: start;background-color: white;border: none;">Process and time scales</button></div>
+                   <div><button class="btn1" style="width: 100%;padding: 5px; text-align: start;background-color: white;border: none;">'Paid for itself in the first few weeks'</button></div>
+                   <div><button class="btn1" style="width: 100%;padding: 5px; text-align: start;background-color: white;border: none;">Approved proposal</button></div>
+                   <div><button class="btn1" style="width: 100%;padding: 5px; text-align: start;background-color: white;border: none;">Terms and conditions</button></div>
+               </div>
+            </div>
+        </div>
+        <div style="width: 100%;" id="main">
+            
+<div>
+    <div class="header" style="width: 100%; height: 13vh; background-color: rgba(12, 122, 165, 0.877);">
+        <div style="padding-top: 17px;display: flex;">
+            <div>
+                <button id="btnMenu" onclick="openNav()" class="btnMenu" style="margin-left: 10px;width: 60px;background-color: rgba(12, 122, 165, 0.877);height: 30px;border: none;">
+                    <i class="fas fa-bars" style="color: white;width: 80%;"></i>
+                </button>
+            </div>
+            <div style="width: 100%;">
+               <center> <font style="color: white;font-size: 30px;text-align: center;">Your New website</font></center>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="container" style="margin-left: 30vh;height: 40vh;width: 100%;padding: 60px;">
+            <strong><p style="width: 40%;">
+            Having  re-designed hundreds of websites in our 12 years and many being being similar to your situation,there are several components to your site wich will benefit you greatly.
+            </p></strong>
+        </div>
+    </div>
+    <div class="bottomDiv" style="width: 100%;height: 70vh;background-color: rgb(235, 233, 233);">
+        <div style="padding-left: 50vh;padding-top: 20px;">
+            <div>
+                <h3>CONTENT FOR THE SITE</h3>
+            </div>
+            <div style="margin-top: 20px;">
+                <h5>HOMEPAGE</h5>
+                <p style="width: 80%;">
+                Solid call to action attracting email subscribers from which a slow burn relationship will be formed.
+                
+                </p>
+            </div>
+            <div style="margin-top: 20px;">
+                <h5>ABOUT</h5>
+                <p style="width: 80%;">
+                We suggest new team photos and action shots of people.
+                These are great and far better than stock photos which unfortunately
+                litters your industry.
+                </p>
+            </div>
+            <div style="margin-top: 20px;">
+                <h5>CASE STUDIES</h5>
+                <p style="width: 80%;">
+                
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    function openNav(){
+        document.getElementById('sidenav').style.width="20%"
+        document.getElementById('sidenav').style.display="block"
+        document.getElementById('main').style.width="80%"
+    }
+    function closeNav(){
+        document.getElementById('sidenav').style.width="0"
+        document.getElementById('sidenav').style.display="none"
+        document.getElementById('main').style.width="100%"
+        
+    }
+    
+</script>
